@@ -28,6 +28,7 @@ deploy:
     secure: F/U6tKa5GUiLbe6b9DCGwVnT7og5ezuJt0x3t6o0b5dbQ+0xIGk+z3Ngaf8NlHRuEadHYjExQdvZOW325WLEh/QZOlbS1evyu/sZGqjpmWh50Sq017NBr9wk49TcU99fqccY/0CJ3KXROAXRFYxe8WaxrHVfwKmMEaUqRK0+YH7P4Nb0ZecCWKxzBNcvvnbnoYp4sLjcBcHHqmqEblmVuv+Lj8ubGpR6tC2jKFAtPwDS18uGcQImR++RXr2oVvwLQIRLdegw7N94qZYmVw2RxKRWDAMF2NLLU4iP7PTTnu/nxJsKxJA1N86PqARlCJb7sxA5y105vcUlWERXC+b11/kXD8HTt5ha/JosbxLqupLHIp1U8nGxuTPMNQfLRivohNv8EBqZ92vBQn5PNdjuXqcJC0GKTw8uOT7iO0h1CgQZGZZ34Ks0RJOvRYGgXuN+3gprq8jvJ6r5XJ+wUUHdE33IxLD3C7CWETbPLIpibwHL9nh7PdJHZ3c6yxJJRgnSVJ5VanxLzO1ne2YG55/Im/7b23x99F/vb9maP0YB/M84ajOQSFu8LSpNSgekCQrVyIJSHKLSCPVbc/905CXZb4/EqT+7DbnhKzjN/g1AhLbjPZkkosIz+Pfe31hU76S7jjdfCT5UZ5mZfQy4fEZO/x30CWj1Vo5qdNBYEPE4yO8=
   file: "./app/build/outputs/apk/app*.apk"
   skip_cleanup: true
+  file_glob: "true"
   on:
     repo: ItsForkIT/pdm
     branch: newStable
