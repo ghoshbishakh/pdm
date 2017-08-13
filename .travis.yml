@@ -26,7 +26,8 @@ deploy:
   provider: releases
   api_key:
     secure: Q8F7Io02VZsZoOP0LsPcsCzrLp/aFRykmXnaWu/Aim1SRXkAewVK7sSfu55MIlCW+NzVKi9xQeQlaS3uAcNfl3BWEMr/E2tTr0iLlrsvTdCqsM9iu8Ti1NdnF49i00/JWkCdg0Uz8ITmqM6XyKrUdoHQz7PQq4mnlkE4mDHieoiN+r1Wg+52F1vu6JKlQ2MRCRMkbUsxwfTnljAvAXjqTf/lRaLsPIn4WDKtg8sFdp0yk2QkD0u0BvDiTOUawYN/kh1QaWWajQoeZ4sKgvF85bdn6TM8hzSBIOcMjAq2ncPjAyl2gbb/+ALW6docYt+bTVqTaHn3FA2ubRJuqPiCiZ2uRcovtPtg9i2JmTSlbuZhFE4sjxH+tQyY3SpEgYC6tq68wfHDs4EnN9M9x6JZkCJ60HEZb76rN90XIvExfV/UFPvGEjn02WrBEohrhM1JqBggTUoENVTd3THMV/Cmb9iCA/T/ydHuGMZ8aq2OHd98fPtVy3C+OaszM6WcJ9n58cpw1tittELTYZZi6PVoI2HKJLxkme8YbifAaQuBa8X6pX+gZ8z7PZlHGzOBTiE9iA5icibG011oeMOCHQB8C5RbDfZStPT40LvBOZsTCQxejG0PT1zD4KitYCuOCZj4GV6K0nWSizMg1H6YBqeJXGEheqFSy7sELHyAiNYzuKE=
-  file: '"./app/build/outputs/apk/app*.apk"'
+  file: "./app/build/outputs/apk/app*.apk"
+  skip_cleanup : true
   on:
     repo: ItsForkIT/pdm
     branch: newStable
